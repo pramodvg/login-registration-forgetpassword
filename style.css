@@ -1,0 +1,70 @@
+Body {
+  font-family: Calabria, Helvetica, sans-serif;
+}
+button {
+  background-color: rgb(0, 134, 223);
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin: 20px 0px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  border: 3px solid #f1f1f1;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+}
+input[type='text'],
+input[type='password'] {
+  width: 85%;
+  margin: 8px 0;
+  padding: 10px 0px;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.container input[type='date'] {
+  width: 95% !important;
+  margin: 8px 0 !important;
+  padding: 10px 0px !important;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+.myinputfilds {
+  width: 100%;
+  margin: 8px 0;
+  text-align: start;
+  padding-left: 10px;
+  display: inline-block;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.myinputfilds span {
+  color: cornflowerblue;
+  cursor: pointer;
+  font-size: 15px;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.container {
+  padding: 25px;
+  text-align: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
